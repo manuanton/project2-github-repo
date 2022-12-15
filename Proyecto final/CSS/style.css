@@ -1,0 +1,106 @@
+/*Damos estilos y posicionamiento a los elementos externos al juego */
+
+h1 {
+    color: #32C400;
+    font-size: 4em;
+    padding: 0% 29%;
+}
+
+body {
+    background-color: #EEEEEE; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenido {
+    padding-left: 20%;
+    margin: auto;
+}
+
+.zona_izquierda, .tablero, .controles, .contacto { 
+    display: flow-root;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.zona_izquierda {
+    float: left;
+    width: 10%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.tablero {
+    width:600px;
+    height:600px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color: #555555;
+    background-color: #def7ff;
+}
+.tablero div {
+    width: 20px;
+    height: 20px;
+}
+
+.controles {
+    width: 20%;
+    padding-left: 2%;
+    text-align: left;
+}
+
+.contacto {
+    width: 50%;
+    padding-left: 15%;
+    text-align: left;
+}
+
+button {
+    background-color: #555555;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #32C400;
+    cursor: pointer;
+}
+
+.puntos, .vidas {
+    font-size: 24px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+}
+
+.puntos {
+    color: #03a4e4;
+}
+
+.vidas {
+    color: #991f00;
+}
+
+
+
+/*Damos estilos y posicionamiento a los elementos del juego */
+
+.serpiente {
+    background-color: #32C400;
+    border-radius: 7px;
+}
+
+.manzana {
+    background-color: #f35831;
+    border-radius: 10px;
+}
